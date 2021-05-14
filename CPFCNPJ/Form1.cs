@@ -49,7 +49,7 @@ namespace CPFCNPJ
             if (g_trab_cnpjcpf.Length != 11 && g_trab_cnpjcpf.Length != 14)
             {
                 MessageBox.Show("CNPJ/CPF Inconsistente",
-                "Inconsistencia",
+                "Erro",
                 MessageBoxButtons.OK,
                 MessageBoxIcon.Error);
                 txt_cpf_cnpj.Focus();
